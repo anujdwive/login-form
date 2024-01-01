@@ -1,0 +1,21 @@
+<%- include("partials/header") %>
+<!-- <form action="su"></form> -->
+<div>
+    <h1>Signup</h1>
+    <form action="/signUp" method="post">
+    <div>
+        <label for="">Email:</label>
+        <input type="email" name="userEmail" placeholder="User-Email">
+    </div>
+    <div>
+        <label for="">Password:</label>
+        <input type="password" name="password" placeholder="Password">
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</form>
+<p>already have an account!</p><a href="/login">Login</a>
+</div>
+
+<%- include("partials/footer") %>
